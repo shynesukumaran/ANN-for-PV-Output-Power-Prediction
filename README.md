@@ -7,4 +7,3 @@ The historical data collected from the power plant contains the output power val
 
 The historical weather parameters considered/collected for the project are: Wind speed, Air temperature and Solar Radiation(GHI).
 
-Initially the ANN model is trained with the historical data of weather parameters and the PV output power. After the model is trained, weather forecast values are fed into the ANN model for the next 24 or 48 hours with the help of an API call to a weather website and the PV output power predictions are achieved.
